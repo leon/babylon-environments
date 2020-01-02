@@ -1,0 +1,29 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "author": "leon",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@types/cheerio": "^0.22.15",
+    "@types/jest": "^24.0.25",
+    "@types/node-fetch": "^2.5.4",
+    "jest": "^24.9.0",
+    "jest-cli": "^24.9.0",
+    "prettier": "^1.19.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "@babylonjs/core": "^4.0.3",
+    "babylonjs": "^4.0.3",
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0",
+    "xhr2": "^0.2.0"
+  },
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "test": "jest"
+  }
+}
