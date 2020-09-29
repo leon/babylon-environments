@@ -6,20 +6,19 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@types/cheerio": "^0.22.15",
-    "@types/jest": "^24.0.25",
-    "@types/node-fetch": "^2.5.4",
-    "jest": "^24.9.0",
-    "jest-cli": "^24.9.0",
-    "prettier": "^1.19.1",
-    "ts-jest": "^24.2.0",
-    "typescript": "^3.7.4"
+    "@types/cheerio": "^0.22.22",
+    "@types/jest": "^26.0.14",
+    "@types/node-fetch": "^2.5.7",
+    "jest": "^26.4.2",
+    "jest-cli": "^26.4.2",
+    "prettier": "^2.1.2",
+    "ts-jest": "^26.4.1",
+    "typescript": "^4.0.3"
   },
   "dependencies": {
-    "@babylonjs/core": "^4.0.3",
-    "babylonjs": "^4.0.3",
+    "@babylonjs/core": "^4.1.0",
     "cheerio": "^1.0.0-rc.3",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "xhr2": "^0.2.0"
   },
   "scripts": {

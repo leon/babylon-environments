@@ -1,6 +1,6 @@
 import fs from 'fs'
 import { promisify } from 'util'
-import { EnvironmentTextureTools, CubeTexture, NullEngine, Scene } from 'babylonjs'
+import { EnvironmentTextureTools, CubeTexture, NullEngine, Scene } from '@babylonjs/core'
 const writeFile = promisify(fs.writeFile)
 globalThis.XMLHttpRequest = require('xhr2')
 

@@ -16,11 +16,11 @@ export interface HDRIHeavenImage {
 }
 
 export const scrapeHDRImages = async (): Promise<HDRIHeavenImage[]> => {
-  const response = await fetch('https://hdrihaven.com/hdris/category/?c=all')
+  const response = await fetch('https://hdrihaven.com/hdris/?c=all')
   const html: string = await response.text()
   const $ = cheerio.load(html)
 
-  const aLinks = $('#hdri-grid').children()
+  const aLinks = $('#item-grid').children('a')
 
   const images = aLinks
     .map((i, el) => {
@@ -38,6 +38,7 @@ export const scrapeHDRImages = async (): Promise<HDRIHeavenImage[]> => {
         thumbUrl,
         hdr4kUrl,
       }
+
       return image
     })
     .get()

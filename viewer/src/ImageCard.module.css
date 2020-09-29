@@ -1,0 +1,35 @@
+.card {
+  display: block;
+  background-color: #fff;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.title {
+  margin: 1rem;
+  text-align: center;
+}
+
+.title a {
+  text-decoration: none;
+  color: #222;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.actions a {
+  display: block;
+  margin: 0.2rem;
+  text-decoration: none;
+  color: #222;
+}
+.actions a:hover {
+  color: #000;
+  text-decoration: underline;
+}

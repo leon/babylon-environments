@@ -1,0 +1,19 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+body {
+  font-family: 'Gelasio', serif;
+}
+
+.images-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 20rem);
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+  justify-content: center;
+  padding: 2rem 0;
+}
